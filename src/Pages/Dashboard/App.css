@@ -1,0 +1,31 @@
+:root {
+  --padding: 4rem;
+  --border: hsl(0, 0%, 20%);
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #002233;
+  background-image: url('../../../public/mobile.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
